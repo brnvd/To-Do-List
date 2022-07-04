@@ -8,6 +8,7 @@ body{
     height: 100vh;
     overflow: hidden;
     position: absolute;
+    background: #FFFCBB;
 }
 .todo{
     display: flex;
@@ -26,15 +27,19 @@ body{
     display: flex;
     flex-direction: row;
     margin: 10px auto;
+    background-color: #F2F8FD;
 }
 .checked{
-    background-color: red;
+    background-color: #231F20;
+    text-decoration: line-through;
+    border: 1px solid #F2F8FD;
 }
 .todo-items-item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border: 1px solid red;
     width: 40%;
     margin: 25px auto;
+    border: 1px solid #231F20;
+    background-color: #F2F8FD;
 }
