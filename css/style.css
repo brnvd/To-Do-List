@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.todo-h1{
+    font-weight: bold;
+    font-size: 34px;
+    width: 26%;
+    margin: 20px auto;
+}
+.todo-input{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+.checked{
+    background-color: red;
+}
+.todo-items-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 40%;
+    margin: 25px auto;
+}
